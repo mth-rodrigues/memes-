@@ -1,0 +1,21 @@
+a:hover{
+    font-size: 16pt;
+}
+body{
+    margin: 0;
+}
+nav{
+    align-items: center;
+    background-color: red;
+    display: flex;
+    font-family: 'Chilanka', cursive;
+    height: 50px;
+    justify-content: space-around;
+}
+
+
+nav a{
+    color: black;
+    text-decoration: none;
+
+}
