@@ -3,26 +3,41 @@ a:hover{
 }
 body{
     margin: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+img{
+    height: 400px;
+}
+h1{
+    margin: 0;
 }
 
 header{
-    background-image: url("../images/javascripto.jpg");
+    background-image: url("../images/gloria.gif");
     background-repeat: no-repeat;
-    height: 600px;
+    background-size: cover;
+    height: 500px;
     
 }
 nav{
     align-items: center;
     background-color: red;
     display: flex;
-    font-family: 'Chilanka', cursive;
     height: 50px;
     justify-content: space-around;
 }
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
 
 nav a{
     color: black;
     text-decoration: none;
-
 }
+ section img:nth-child(3):hover{
+     width: 100%;
+ }
