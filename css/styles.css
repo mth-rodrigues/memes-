@@ -4,6 +4,13 @@ a:hover{
 body{
     margin: 0;
 }
+
+header{
+    background-image: url("../images/javascripto.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
 nav{
     align-items: center;
     background-color: red;
